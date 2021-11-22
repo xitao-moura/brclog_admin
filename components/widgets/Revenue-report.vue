@@ -42,17 +42,17 @@ export default {
                 xaxis: {
                     categories: [
                         "Jan",
-                        "Feb",
+                        "Fev",
                         "Mar",
-                        "Apr",
-                        "May",
+                        "Abr",
+                        "Mai",
                         "Jun",
                         "Jul",
-                        "Aug",
-                        "Sep",
-                        "Oct",
+                        "Ago",
+                        "Set",
+                        "Out",
                         "Nov",
-                        "Dec"
+                        "Dez"
                     ],
                     axisBorder: {
                         show: false
@@ -78,11 +78,11 @@ export default {
                 }
             },
             series: [{
-                    name: "Actual",
+                    name: "Atual",
                     data: [65, 59, 80, 81, 56, 89, 40, 32, 65, 59, 80, 81]
                 },
                 {
-                    name: "Projection",
+                    name: "Projeção",
                     data: [89, 40, 32, 65, 59, 80, 81, 56, 89, 40, 65, 59]
                 }
             ]
@@ -99,30 +99,30 @@ export default {
                 <i class="mdi mdi-dots-horizontal"></i>
             </template>
             <!-- item-->
-            <b-dropdown-item>Settings</b-dropdown-item>
+            <b-dropdown-item>Configurações</b-dropdown-item>
             <!-- item-->
             <b-dropdown-item>Download</b-dropdown-item>
             <!-- item-->
             <b-dropdown-item>Upload</b-dropdown-item>
             <!-- item-->
-            <b-dropdown-item>Action</b-dropdown-item>
+            <b-dropdown-item>Ação</b-dropdown-item>
         </b-dropdown>
 
-        <h4 class="header-title">Revenue Report</h4>
+        <h4 class="header-title">Taxa de ocupação</h4>
 
         <div class="mt-3 text-center">
             <div class="row pt-2">
                 <div class="col-4">
-                    <p class="text-muted font-15 mb-1 text-truncate">Target</p>
-                    <h4>$12,365</h4>
+                    <p class="text-muted font-15 mb-1 text-truncate">Alvo</p>
+                    <h4>35%</h4>
                 </div>
                 <div class="col-4">
-                    <p class="text-muted font-15 mb-1 text-truncate">Last week</p>
-                    <h4><i class="fe-arrow-down text-danger"></i> $365</h4>
+                    <p class="text-muted font-15 mb-1 text-truncate">Semana anterior</p>
+                    <h4><i class="fe-arrow-down text-danger"></i> 20%</h4>
                 </div>
                 <div class="col-4">
-                    <p class="text-muted font-15 mb-1 text-truncate">Last Month</p>
-                    <h4><i class="fe-arrow-up text-success"></i> $8,501</h4>
+                    <p class="text-muted font-15 mb-1 text-truncate">Mês passado</p>
+                    <h4><i class="fe-arrow-up text-success"></i> 70%</h4>
                 </div>
             </div>
 

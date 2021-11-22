@@ -99,23 +99,48 @@ export default {
             ],
             widgetData: [{
                     number: "268",
-                    text: "New Customers",
+                    text: "Total em estoque",
                     chartColor: "#1abc9c"
                 },
                 {
                     number: "8574",
-                    text: "Online Orders",
+                    text: "Posição porta pallete",
                     chartColor: "#3bafda"
                 },
                 {
                     number: "$958.25",
-                    text: "Revenue",
+                    text: "Entrada NF",
                     chartColor: "#f672a7"
                 },
                 {
                     number: "$89.25",
-                    text: "Daily Average",
+                    text: "Taxa ocupa'ão",
                     chartColor: "#6c757d"
+                },
+                {
+                    number: "268",
+                    text: "custo por pallete",
+                    chartColor: "#1abc9c"
+                },
+                {
+                    number: "268",
+                    text: "Prod. a vencer 90 dias",
+                    chartColor: "#1abc9c"
+                },
+                {
+                    number: "268",
+                    text: "consumo",
+                    chartColor: "#1abc9c"
+                },
+                {
+                    number: "268",
+                    text: "Quant. fornecedores",
+                    chartColor: "#1abc9c"
+                },
+                {
+                    number: "268",
+                    text: "Separação",
+                    chartColor: "#1abc9c"
                 }
             ]
         };
@@ -134,23 +159,23 @@ export default {
     </div>
     <!-- end row -->
     <div class="row">
-        <div class="col-xl-4 col-lg-6">
+        <div class="col-xl-12 col-lg-12">
             <RevenueReport />
         </div>
         <!-- end col -->
-        <div class="col-xl-4 col-lg-6">
+        <!-- <div class="col-xl-4 col-lg-6">
             <ProductsSales />
-        </div>
+        </div> -->
         <!-- end col -->
-        <div class="col-xl-4 col-lg-6">
+        <!-- <div class="col-xl-4 col-lg-6">
             <MarketingReports />
-        </div>
+        </div> -->
         <!-- end col -->
     </div>
     <!-- end row -->
-    <div class="row">
+    <!-- <div class="row"> -->
         <!-- Table -->
-        <div class="col-xl-12">
+        <!-- <div class="col-xl-12">
             <Portlet :headertitle="tableTitle">
                 <div class="card-body pt-0">
                     <div class="table-responsive mb-0">
@@ -181,19 +206,19 @@ export default {
                     </div>
                 </div>
             </Portlet>
-        </div>
-    </div>
+        </div> -->
+    <!-- </div> -->
     <!-- end row -->
-    <div class="row">
-        <div class="col-xl-8">
+    <!-- <div class="row"> -->
+        <!-- <div class="col-xl-8">
             <RevenueHistory />
-        </div>
+        </div> -->
         <!-- end col -->
-        <div class="col-xl-4">
+        <!-- <div class="col-xl-4">
             <Projections />
-        </div>
+        </div> -->
         <!-- end col -->
-    </div>
+    <!-- </div> -->
     <!-- end row -->
 </div>
 </template>

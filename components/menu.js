@@ -32,7 +32,7 @@ export const menuItems = [
             {
                 id: 117,
                 label: 'menuitems.dashboard.list.clientes',
-                link: '/dashboard/clientes'
+                link: '/'
             },
         ]
     },

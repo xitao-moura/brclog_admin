@@ -100,7 +100,7 @@ export default {
     <footer class="footer footer-alt">
         <p class="text-muted">
 
-            {{ new Date().getFullYear() }} &copy; Minton theme by
+            {{ new Date().getFullYear() }} &copy; BRCLog by
             <a href="javascript: void(0);" class="text-dark">Themesbrand</a>
         </p>
     </footer>
