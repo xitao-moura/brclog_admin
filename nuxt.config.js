@@ -106,5 +106,8 @@ export default {
     message: process.env.VUE_APP_MESSAGINGSENDERID,
     appid: process.env.VUE_APP_APPId,
     measurement: process.env.VUE_APP_MEASUREMENTID,
+  },
+  server: {
+    port: 3050
   }
 }
