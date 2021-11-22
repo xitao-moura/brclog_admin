@@ -95,6 +95,9 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    babel: {
+      compact: true
+    }
   },
   env: {
     auth: process.env.VUE_APP_DEFAULT_AUTH,
